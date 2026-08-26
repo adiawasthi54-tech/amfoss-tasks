@@ -9,5 +9,8 @@ I learnt Python, C and usage of basic Linux commands by books, and YouTube video
 I want to contribute to the club by redirecting my curiosity in working better for the club.
 # What are your fields of interest, and how do you plan on working on them?
 My fields of interest are AI tools like, OpenCV, Transformer and Linux shell. I want to explore these topics deeper in these 4 years.
+# TASK STATUS
+My Statistics is as shown:
+
 
 
