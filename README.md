@@ -6,6 +6,8 @@ Around me I have noticed that our country has always lagged in domain of AI and 
 # Describe something you've learned outside a classroom or formal course. How did you learn it?
 I learnt Python, C and usage of basic Linux commands by books, and YouTube videos.
 # How do you intend to contribute back to the club?
-I want to contribute to the club by working on sophisticated and faster alternatives to modern technologies like Agentic AI.
+I want to contribute to the club by redirecting my curiosity in working better for the club.
 # What are your fields of interest, and how do you plan on working on them?
+My fields of interest are AI tools like, OpenCV, Transformer and Linux shell. I want to explore these topics deeper in these 4 years.
+
 
