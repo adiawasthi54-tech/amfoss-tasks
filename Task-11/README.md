@@ -4,23 +4,11 @@ A small text-based adventure game written in Python. You play a spy stranded on 
 
 ## Motivation
 
-This game was inspired by a personal interest in geopolitics — specifically the real-world tensions around Kinmen Island and the Taiwan Strait, which the game's setting and premise draw on.
+This game was inspired by a personal interest in geopolitics — specifically the real-world tensions around Kinmen Island and the Taiwan Strait, which the game's setting and premise draw on. I also had basic skills of time, random and sys. I learnt about slow_print feature in internet so i implemented it also.
 
 ## Story
 
 You wake up on Kinmen Island after a mission goes wrong. Surveillance is heavy, supplies are cut off, and a garbled radio transmission is the only guidance you get. Your goal is to move between locations, gather clues, manage how suspicious you look to patrols, and eventually cross Kinmen Bridge to reach the coast and swim to freedom.
-
-## Requirements
-
-- Python 3.6 or later (no external libraries required — uses only `time`, `random`, and `sys` from the standard library)
-
-## How to Run
-
-```bash
-python3 escape_the_island.py
-```
-
-You'll be asked to enter your name, then given an introductory transmission before the game begins.
 
 ## How to Play
 
