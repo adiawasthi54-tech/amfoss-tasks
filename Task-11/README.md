@@ -4,7 +4,7 @@ A small text-based adventure game written in Python. You play a spy stranded on 
 
 ## Motivation
 
-This game was inspired by a personal interest in geopolitics — specifically the real-world tensions around Kinmen Island and the Taiwan Strait, which the game's setting and premise draw on and I made a similar game when I was in 8th grade. I also had basic skills of time, random and sys. I learnt about slow_print feature and much more details in internet so i implemented them.(Note: This is a much more improvised version of the original game.) 
+This game was inspired by a personal interest in geopolitics — specifically the real-world tensions around Kinmen Island and the Taiwan Strait, which the game's setting and premise draw on and I made a similar game when I was in 8th grade. I also had basic skills of time, random and sys. I learnt about slow_print feature and much more details in internet so i implemented them. (Note: This is a much more improvised version of the original game.) 
 
 ## Story
 
