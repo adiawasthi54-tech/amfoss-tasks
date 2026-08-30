@@ -1,58 +1,46 @@
-# Escape the Island
+# Astro Pandit
 
-A small text-based adventure game written in Python. You play a spy stranded on Kinmen Island who must sneak across guarded territory, avoid suspicion, and reach the western shore to escape by swimming toward the mainland.
+This is a flutter app i made for finding zodiac sign (horoscope) from date of birth. Made this as practice project to learn Forms and TextEditingController in flutter.
 
-## Motivation
+## What it does
 
-This game was inspired by a personal interest in geopolitics — specifically the real-world tensions around Kinmen Island and the Taiwan Strait, which the game's setting and premise draw on and I made a similar game when I was in 8th grade. I also had basic skills of time, random and sys. I learnt about slow_print feature and much more details in internet so i implemented them. (Note: This is a much more improvised version of the original game.) 
+- Takes your Name and Date of Birth as input
+- When you click Submit button it checks the date and tells your zodiac sign (like Leo, Aries etc)
+- Shows the answer in a box below
 
-## Story
+## How to run
 
-You wake up on Kinmen Island after a mission goes wrong. Surveillance is heavy, supplies are cut off, and a garbled radio transmission is the only guidance you get. Your goal is to move between locations, gather clues, manage how suspicious you look to patrols, and eventually cross Kinmen Bridge to reach the coast and swim to freedom.
+1. Open the project in Android Studio / VS Code
+2. Run this command to get packages
+```
+flutter pub get
+```
+3. Then run
+```
+flutter run
+```
+(make sure emulator is running or phone connected)
 
-## How to Play
+## How to use the app
 
-The game is controlled entirely through typed text commands (all lowercase):
+- Enter your name in first box
+- Enter DOB in second box like this format: `15/8` (date/month)
+- Click Submit
+- Your zodiac sign will show in the last box
 
-| Command | Effect |
-|---|---|
-| `.<place>` | Travel to a connected location, e.g. `.jinsha` |
-| `\<action>` | Interact with something in your current location, e.g. `\hide` |
-| `.look` | Redisplay the description of your current area |
-| `.map` | Show which places you can travel to from here |
-| `.help` | Show the list of commands again |
-| `.quit` | Give up and end the game |
+Note: if you dont fill the boxes it will show error "Please Enter Name" etc, that is the form validation part.
 
-Each area lists its own available interactions and travel destinations when you arrive or use `.look`.
+## Logic used
 
-## Locations
+I used simple if conditions to check date and month and match with zodiac date ranges. Like if date is between 21-31 and month is 3 then its Aries. Did this for all 12 signs. Its a bit long code with many if statements but it works fine.
 
-- **Jinhu Township** – Quiet farmland; a good place to lie low.
-- **Jinsha** – A township with a checkpoint; guards can be bribed or eavesdropped on.
-- **Jincheng** – The main town, heavily watched by cameras and soldiers.
-- **Coast near Shuangkou** – A beach with a view of the bridge and the tide.
-- **Kinmen Bridge** – The crossing point to the western shore.
-- **Western Shore** – The final location, where you can swim to escape.
+## Things I know are not perfect (need to fix later)
 
-## Suspicion System
+- If you enter wrong format date (like using - instead of /) app will crash, not handled that yet
+- Should use a proper date picker instead of typing manually, will do that in next version
+- The image on top is loaded from internet link, if no internet it might not show
+- No submit confirmation snackbar (commented it out in code for testing)
 
-Your actions raise or lower a hidden **suspicion meter** (0–100):
+## Credits
 
-- Reckless or risky actions (using the radio, a failed bribe, looking out of place) raise suspicion.
-- Cautious actions (hiding, blending into a crowd, resting, successful bribes) lower it.
-- If suspicion reaches **100**, you are caught and the game ends immediately (game over).
-
-## Winning the Game
-
-To win, you generally want to:
-
-1. Gather clues about the bridge and tide from villagers, guards, or notice boards.
-2. Manage your suspicion level by favoring low-risk actions.
-3. Optionally find civilian clothes to blend in more easily.
-4. Travel to the **beach**, then to **Kinmen Bridge**, and cross it.
-5. From the **Western Shore**, use `\swim` to complete your escape and win.
-
-## Notes
-
-- Text is printed with a slight typing effect (`slow_print`) for atmosphere; you can adjust the `delay` parameter in the code to speed this up.
-- Some outcomes (like bribing a guard or crossing the bridge safely) are randomized, so replaying may go differently each time.
+Made using Flutter. Following official flutter docs for Forms as reference.
