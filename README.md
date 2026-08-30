@@ -8,7 +8,7 @@ I learnt Python, C and usage of basic Linux commands by books, and YouTube video
 ## How do you intend to contribute back to the club?
 I want to contribute to the club by redirecting my curiosity in working better for the club.
 ## What are your fields of interest, and how do you plan on working on them?
-My fields of interest are AI tools like, OpenCV, Transformer and Linux shell. I want to explore these topics deeper in these 4 years.
+My fields of interest are AI tools like, OpenCV, Transformer and Linux shell. I want to explore these topics deeper in these 4 years, regardless of joining amfoss.
 # TASK STATUS
 My Statistics is as shown:
 
