@@ -40,6 +40,7 @@ I used simple if conditions to check date and month and match with zodiac date r
 - Should use a proper date picker instead of typing manually, will do that in next version
 - The image on top is loaded from internet link, if no internet it might not show
 - No submit confirmation snackbar (commented it out in code for testing)
+- Add AI API so that is can further actually predict future based on zodiac calculations.
 
 ## Credits
 
