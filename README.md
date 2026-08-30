@@ -36,5 +36,16 @@ If I do get into amFOSS, I'm hoping being around more experienced people who've 
 
 # TASK STATUS
 
+Here's a table of all the tasks I've completed so far, linked to their folders in this repo:
+
+| Task No. | Title | Description | Link |
+|----------|-------|-------------|------|
+| Task-00 | Ubuntu Installation | Installed Ubuntu on my system, didn't face any major issues since I was careful during setup. | [View](./Task-00) |
+| Task-01 | Terminal Voyage CTF | A full walkthrough of how I solved every level of the Terminal Voyage Linux/Git CTF, from Loguetown Reef all the way to Laugh Tale. | [View](./Task-01) |
+| Task-03 | LeetCode Solutions | Solved and explained 5 LeetCode problems (Two Sum, Add Two Numbers, Roman to Integer, Integer to Roman, Palindrome Number) in my own words. | [View](./Task-03) |
+| Task-10 | Artist Grid App | A Flutter project (work in progress). | [View](./Task-10) |
+| Task-11 | Astro Pandit | A Flutter app that finds your zodiac sign from your date of birth. Built as practice for learning Forms and TextEditingController in Flutter. | [View](./Task-11) |
+
+*(Table will keep getting updated as I complete more tasks.)*
 My Statistics is as shown:
 
