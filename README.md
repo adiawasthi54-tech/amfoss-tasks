@@ -46,6 +46,5 @@ Here's a table of all the tasks I've completed so far, linked to their folders i
 | Task-10 | Artist Grid App | A Flutter app that divides image into grid so that it easy for artists to draw that image. | [View](./Task-10) |
 | Task-11 | Astro Pandit | A Flutter app that finds your zodiac sign from your date of birth. Built as practice for learning Forms and TextEditingController in Flutter. | [View](./Task-11) |
 
-*(Table will keep getting updated as I complete more tasks.)*
 My Statistics is as shown:
 
