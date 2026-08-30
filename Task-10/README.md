@@ -46,9 +46,3 @@ It's not a "finished" polished app, still a work in progress, but the core grid 
    ```
    flutter run
    ```
-
-## Things I'd like to improve later
-
-- Right now the grid is only for viewing on screen — it'd be cool to let users **export the gridded image** as a file so they can print it directly instead of just looking at their screen while drawing.
-- Add an option to **flip or rotate** the reference image.
-- Maybe let users **save their favorite grid settings** so they don't have to set it up every time.
